@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects — Mohammad Bin Hamid</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="projects.css">
+</head>
+<body>
+  <input type="checkbox" id="menu-toggle">
+  <nav>
+    <div class="nav-logo">MBH<span>.</span></div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="profile.html">Profile</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="career.html">Career</a></li>
+      <li><a href="projects.html" class="active">Projects</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <label class="hamburger-label" for="menu-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+  </nav>
+  <div class="mobile-menu">
+    <a href="index.html">Home</a>
+    <a href="profile.html">Personal Profile</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="career.html">Career Goals</a>
+    <a href="projects.html">Projects</a>
+    <a href="skills.html">Skills &amp; Interests</a>
+    <a href="contact.html">Contact Us</a>
+  </div>
+
+  <div class="page-wrapper">
+    <section class="section projects-header">
+      <p class="section-tag">Projects</p>
+      <h1 class="section-title">Things I've<br><em>built</em><span style="color:var(--accent)">.</span></h1>
+      <p class="projects-sub">A collection of my personal and academic software projects.</p>
+    </section>
+
+    <div class="divider"></div>
+
+    <section class="section projects-section">
+      <div class="projects-grid">
+        <div class="project-card card">
+          <div class="project-preview" style="background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);">
+            <div class="project-preview-icon">💳</div>
+          </div>
+          <div class="project-body">
+            <div class="project-number">01</div>
+            <h2 class="project-title">FinTrack — Personal Finance Manager</h2>
+            <p class="project-desc">A command-line based personal finance tracker built in C++ that allows users to log income and expenses, categorize transactions, view monthly summaries, and export reports. Features file I/O for persistent data storage and a clean text-based UI.</p>
+            <div class="project-tech">
+              <span>C++</span>
+              <span>OOP</span>
+              <span>File I/O</span>
+              <span>Data Structures</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com" target="_blank" class="btn">GitHub ↗</a>
+              <a href="#" class="btn">Live Demo ↗</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card card">
+          <div class="project-preview" style="background: linear-gradient(135deg, #1a0533 0%, #2d1057 50%, #1a0533 100%);">
+            <div class="project-preview-icon">🐍</div>
+          </div>
+          <div class="project-body">
+            <div class="project-number">02</div>
+            <h2 class="project-title">StockSense — Stock Price Predictor</h2>
+            <p class="project-desc">A Python-based data analysis tool that fetches historical stock data and uses statistical models to visualize price trends. Built as a learning project to apply Python's data science libraries to fintech use cases.</p>
+            <div class="project-tech">
+              <span>Python</span>
+              <span>Pandas</span>
+              <span>Matplotlib</span>
+              <span>NumPy</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com" target="_blank" class="btn">GitHub ↗</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <section class="section projects-cta">
+      <h2 class="section-title">More on<br><em>GitHub</em><span style="color:var(--accent)">.</span></h2>
+      <a href="https://github.com" target="_blank" class="btn btn-accent" style="margin-top: 28px;">View All Repos ↗</a>
+    </section>
+  </div>
+
+  <footer>
+    <div>© 2025 <span>Mohammad Bin Hamid</span>. All rights reserved.</div>
+    <div>FAST University — BS Fintech</div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Mohammad Bin Hamid</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+  <input type="checkbox" id="menu-toggle">
+  <nav>
+    <div class="nav-logo">MBH<span>.</span></div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="profile.html">Profile</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="career.html">Career</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+    <label class="hamburger-label" for="menu-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+  </nav>
+  <div class="mobile-menu">
+    <a href="index.html">Home</a>
+    <a href="profile.html">Personal Profile</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="career.html">Career Goals</a>
+    <a href="projects.html">Projects</a>
+    <a href="skills.html">Skills &amp; Interests</a>
+    <a href="contact.html">Contact Us</a>
+  </div>
+
+  <div class="page-wrapper">
+    <section class="section contact-header">
+      <p class="section-tag">Contact</p>
+      <h1 class="section-title">Let's work<br><em>together</em><span style="color:var(--accent)">.</span></h1>
+      <p class="contact-sub">Have a project in mind or want to connect? Reach out below.</p>
+    </section>
+
+    <div class="divider"></div>
+
+    <section class="section contact-section">
+      <div class="contact-layout">
+        <div class="contact-info">
+          <p class="section-tag">Get in Touch</p>
+          <div class="info-block">
+            <div class="info-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <div>
+              <div class="info-label">Email</div>
+              <a href="mailto:mohammadbin@gmail.com" class="info-value">mohammadbin@gmail.com</a>
+            </div>
+          </div>
+          <div class="info-block">
+            <div class="info-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.07 9.16 19.79 19.79 0 0 1 1.07 2.18 2 2 0 0 1 3.07 0h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.09 7.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21 16.92z"/></svg>
+            </div>
+            <div>
+              <div class="info-label">Phone</div>
+              <a href="tel:+923001234567" class="info-value">+92 300 123 4567</a>
+            </div>
+          </div>
+          <div class="info-block">
+            <div class="info-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div>
+              <div class="info-label">Location</div>
+              <span class="info-value">Islamabad, Pakistan</span>
+            </div>
+          </div>
+          <div class="contact-social">
+            <a href="https://linkedin.com" target="_blank" class="social-btn">LinkedIn ↗</a>
+            <a href="https://github.com" target="_blank" class="social-btn">GitHub ↗</a>
+          </div>
+        </div>
+
+        <div class="contact-form-wrap">
+          <div class="card form-card">
+            <p class="section-tag" style="margin-bottom: 24px;">Send a Message</p>
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Your full name">
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="your@email.com">
+              </div>
+              <div class="form-group full">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" placeholder="What's this about?">
+              </div>
+              <div class="form-group full">
+                <label for="message">Message</label>
+                <textarea id="message" rows="5" placeholder="Tell me about your project or idea..."></textarea>
+              </div>
+            </div>
+            <button type="button" class="btn btn-accent submit-btn">Send Message ↗</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <div>© 2025 <span>Mohammad Bin Hamid</span>. All rights reserved.</div>
+    <div>FAST University — BS Fintech</div>
+  </footer>
+</body>
+</html>
